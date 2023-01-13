@@ -17,7 +17,7 @@ def can_jump(nums)
     end
 
 
-    unless goal == 0
+    unless goal == 0 # means that we are able to move backward to the initial position
         return false
     end
 
